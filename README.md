@@ -1,6 +1,8 @@
 # Chinese_to_Minecraft_CommandBlock
 用中文生成我的世界命令方块
 
+![图片.png](https://i.loli.net/2021/07/30/7GuIy3l8HxYWOeZ.png)
+
 命令用法
 
     #取实体集_全部玩家() -> 返回所有玩家
