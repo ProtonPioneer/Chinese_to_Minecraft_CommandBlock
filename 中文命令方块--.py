@@ -286,7 +286,7 @@ def Run (O00OO00OO0O00OO00 ):#line:389
 bb =aa =""#line:415
 while True :#line:416
     aa =input ()#line:417
-    bb +=aa #line:418
+    bb +=aa + "\n" #line:418
     if aa =="":#line:419
         cc =Run (bb )#line:420
         bb =""#line:421
