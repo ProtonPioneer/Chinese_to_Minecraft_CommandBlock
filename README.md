@@ -1,6 +1,8 @@
 # Chinese_to_Minecraft_CommandBlock
 用中文生成我的世界命令方块
 
+我的博客 https://www.waterwelly.com/
+
 ![图片.png](https://i.loli.net/2021/07/30/7GuIy3l8HxYWOeZ.png)
 
 可以使用变量赋值引用和下面的函数
