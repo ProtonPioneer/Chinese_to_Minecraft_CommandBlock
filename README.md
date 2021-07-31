@@ -1,6 +1,10 @@
 # Chinese_to_Minecraft_CommandBlock
 用中文生成我的世界命令方块
 
+语法是伪易语言
+
+额外的数据类型有实体,实体集,位置,矩形空间,物品方块,生物种类
+
 我的博客 https://www.waterwelly.com/
 
 ![图片.png](https://i.loli.net/2021/07/30/7GuIy3l8HxYWOeZ.png)
@@ -61,11 +65,17 @@
     
 #例程
 1) 场景:将玩家脚下的方块替换为空气
+
 中文命令
+
 players = 取实体集_全部玩家()
+
 loc = 构建位置_相对实体坐标(取实体_实体集_遍历(players),0,-1,0)
+
 放置方块_位置( loc ,物品方块('AIR'))
+
 输出
+
 execute @e[type=player] ~ ~ ~ setblock ~0 ~-1 ~0 AIR 0
 
 
